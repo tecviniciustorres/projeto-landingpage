@@ -1,0 +1,162 @@
+*{
+
+    margin: 0px;
+    font-family:'inter';
+}
+
+#menu-superior{
+    color: #FFFFFF;
+    background-image: url(imagem/fundo-superior.svg);
+    padding-bottom: 100px;
+
+}
+
+#logodnc{
+    width: 125px;
+    margin-top: 52px;
+    margin-left: 56px;
+}
+
+#titulo-superior{
+    margin-top: 120px;
+    margin-left: 175px;
+}
+
+#paragrafo-superior{
+    margin-top: 0px;
+    margin-left: 172px;
+
+}
+
+
+#menu-informacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icones{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+
+#secao-video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulo-video{
+    color: #247BA0;
+}
+
+#video{
+    margin: 45px 0px 25px 174px;
+}
+
+#texto-video{
+margin: 45px 550px 25px 0px;
+}
+
+
+
+#carrossel-informativo{
+    background-color: #247BA0;
+    padding: 50px;
+    color: white;
+}
+
+#titulo-carrossel{
+    text-align: center;
+}
+
+#cards-nemes{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.cards{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 532px;
+    height: 172px;
+}
+
+.setas{
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.setas:hover{
+    transform: translateY(-5px);
+    transition-duration: 1s;
+}
+
+#seta-esquerda{
+    display: none;
+    margin-left: 90px;
+    margin-top: 110px;
+}
+
+#seta-direita{
+    margin-right: 100px;
+    
+}
+
+#bruna{
+    display: none;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    color: #383838;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+input{
+    color: #383838;
+    width: 300px;
+    height: 30px;
+    background-color: #3333 ;
+    border: 0px;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+
+button{
+    background-color: #247BA0;
+    color: #FFFFFF;
+    width: 250px;
+    height:43px;
+    border: 0px;
+    border-radius:6px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+button:hover{
+    transform: translateY(-7px);
+    background-color: #1c5770;
+    color: white;
+    box-shadow:0px 5px 15px 0px #0f2630;
+    
+
+}

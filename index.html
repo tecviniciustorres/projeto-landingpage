@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Escola DNC</title>
+</head>
+<body>
+    <!--MENU_SUPERIOR-->
+    <div id="menu-superior">
+    <a href="https://www.escoladnc.com.br/"><img id="logodnc" src="./icones/logodnc.svg" alt="" srcset=""></a>
+        <h1 id="titulo-superior">Dê os primeiros passos da<br>
+        sua carreira em Tecnologia</h1><br>
+        <p id="paragrafo-superior">Inscreva-se no curso gratuito de Introdução à<br>
+        Tecnologia da DNC School e aprenda os principais<br>
+        fundamentos para construir experiências efetivas.</p>
+    </div>
+
+    <!--MENU_INFORMACIONAL-->
+    <div id="menu-informacional">
+        <p class="textoinformativo"><img src="./icones/certificado.svg" class="icones" alt="" srcset=""> Certificado de conclusão</p>
+        <p class="textoinformativo"><img src="./icones/relogio.svg" class="icones" alt="" srcset=""> 4 horas de conteúdo</p>
+        <p class="textoinformativo"><img src="./icones/camera.svg" class="icones" alt="" srcset=""> Aulas online gravadas</p>
+</div>
+
+    <!--VIDEO_INFORMATIVO-->
+    <div id="secao-video">
+        <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="DNC - A escola inovadora que forma profissionais de alta perfomance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <div id="texto-video">
+            <h1 id="titulo-video">
+                Aprenda com especialistas e<br>
+                comece seu primeiro projeto
+            </h1><br>
+            <p>
+                Conheça o processo de desenvolvimento e entenda como utilizar<br>
+                os principais métodos e ferramentas da área para resolver<br>
+                problemas complexos.<br><br>
+                Conquiste seu certificado e desenvolva um projeto prático para<br>
+                aplicar seus conhecimentos.
+            </p>
+        </div>
+    
+    </div>
+
+    <!--DEPOIMENTOS_ALUNOS-->
+    <div id="carrossel-informativo">
+        <h1 id="titulo-carrossel"> 
+        Mais de 500 alunos já iniciaram seus estudos
+        </h1>
+        <!--DIV-CARDS-->
+        <div id="cards-nemes">
+            <img id="seta-esquerda" onclick="RolarparaEsquerda()" src="./icones/seta-esquerda.svg" class="setas" alt="" srcset="">
+            <img id="leonardo" src="./cards/Leonardo.svg" class="cards" alt="" srcset="">
+            <img id="samantha" src="./cards/Samantha.svg" class="cards" alt="" srcset="">
+            <img id="bruna" src="./cards/bruna.svg" class="cards" alt="" srcset="">
+            <img id="seta-direita" onclick="RolarParaDireita()" src="./icones/seta-direita.svg" class="setas" alt="" srcset="">
+        </div>
+    </div>
+    <!--IMPUT-->
+    <div id="formulario">
+        <h1 id="titulo-formulario">
+        Comece agora mesmo e dê o próximo passo da sua carreira
+        </h1>
+        
+        <form action="https://api.sheetmonkey.io/form/uPkQcGFcYLAh1EnrvF86WK" method="post">
+        <input type="text" placeholder="Nome" name="name" required><br><br>
+        <input type="email" placeholder="Email" name="email" required><br><br>
+        <input type="number" placeholder="Telefone" name="phone" required><br><br>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <button type="submit">Acesse a Ementa gratis</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+
+
+</body>
+</html>
